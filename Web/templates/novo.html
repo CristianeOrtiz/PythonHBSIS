@@ -4,23 +4,25 @@
         <link rel="stylesheet" href="../static/style.css">
     </head>
     <body>
-        <h1>Novo Aluno</h1>
+        <div class="cabecalho">
+            <img src="../static/hbsislogo2015.png" alt="">
+            <h1>Novo Aluno</h1>
+        </div>
         <form action="/salvar" method="POST"> 
             <div class="labels">
                 <label for="">Nome :</label>
             </div>
-            <input type="text" name="nome" class="text-box"> <br/>
+                <input type="text" name="nome" > <br/>
             <div class="labels">
                 <label for="">Sobrenome :</label>
             </div>
-            <input type="text" name="sobrenome" class="test-box"> <br/>
+                <input type="text" name="sobrenome" > <br/>
             <div class="labels"> 
                 <label for="">Telefone :</label>
             </div>
-            <input type="text" name="telefone"> <br/>
-
+                <input type="text" name="telefone"> <br/>
             <hr />
-            <input type="submit" value="Salvar">
+                <input type="submit" value="Salvar" class="button">
         </form>
     </body>
 </html>

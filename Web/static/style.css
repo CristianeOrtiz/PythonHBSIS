@@ -1,51 +1,71 @@
-/* body{
-    background: #cccccc;
-    padding: 0.5em 2em;
-    width: 20%;
-    margin: auto;
- 
-}
 input{
     background: #ffffff;
     color: #020202; 
     margin: auto;
     width: 50%;
-    border: 1px solid #000000;
     display: inline-block;
-}
-.salvar:hover{
-    background: #47a3fa;
-    color: #000000;
-    border: #000000
-}
-label{
-    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #cccccc,
+    0 2px 5px #000000;
 } 
-.text-box{
-    margin: 0.5em 0;
-    display: inline-block;
-} */
-
 
 body{
+    width: 60%;
     background: #cccccc;
-    padding: 0.5em 1em;
-    margin: auto;
+    margin: 5em 0 0 20em;
+    text-align: center;   
 }
 
 form{
-    width: 30%;
+    width: 60%;
     margin: auto;
     background: #cccccc;
+    padding: 1em 0.5em;
+    border: 0.5px solid #000000;
+    border-collapse: collapse;
+    text-align: left;
 }
+
 .labels{
+    padding: 0.4em;
     width: 20%;
     display: inline-block;
+    color:#b2b1cf;
     text-align: right;
 }
-.text-box{
-    margin: 0.5em 0em;
-    width: 70%;
-    display: inline-block;
 
+label{
+    width: 60%;
+    color: #000000; 
+}
+
+.button{
+    width: 30%;
+    margin: 0 0 0 13em;
+    border: #000000;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #cccccc,
+        0 2px 5px #000000;
+}
+
+body img{
+    width: 30%;
+    margin-top: -2em ;
+    padding: 0;
+
+}
+.cabecalho{
+    width: 60%;
+    margin: auto;
+    
+}
+.cabecalho h1{
+    width: 15em;
+    text-align: center;
+    margin: 0.3em;
+}
+.cabecalho img{
+    width: 10em;
+    margin-bottom: 0;
+    float:left;
 }

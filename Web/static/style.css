@@ -1,0 +1,51 @@
+/* body{
+    background: #cccccc;
+    padding: 0.5em 2em;
+    width: 20%;
+    margin: auto;
+ 
+}
+input{
+    background: #ffffff;
+    color: #020202; 
+    margin: auto;
+    width: 50%;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+.salvar:hover{
+    background: #47a3fa;
+    color: #000000;
+    border: #000000
+}
+label{
+    padding: 0.5em 1em;
+} 
+.text-box{
+    margin: 0.5em 0;
+    display: inline-block;
+} */
+
+
+body{
+    background: #cccccc;
+    padding: 0.5em 1em;
+    margin: auto;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    background: #cccccc;
+}
+.labels{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+}
+.text-box{
+    margin: 0.5em 0em;
+    width: 70%;
+    display: inline-block;
+
+}

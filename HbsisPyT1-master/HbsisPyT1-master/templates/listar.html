@@ -1,0 +1,8 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+    <ul>
+        {% for c in lista %}
+            <li>{{ c.nome }}</li>                    
+        {% endfor %}
+    </ul>
+{% endblock %}
